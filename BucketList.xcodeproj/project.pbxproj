@@ -13,6 +13,9 @@
 		F6400A5E2A8C82E8001AF7C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6400A5D2A8C82E8001AF7C2 /* Preview Assets.xcassets */; };
 		F6400A652A8D6C6B001AF7C2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6400A642A8D6C6A001AF7C2 /* Location.swift */; };
 		F6400A672A8DC8AD001AF7C2 /* Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6400A662A8DC8AD001AF7C2 /* Edit.swift */; };
+		F6400A692A8E7290001AF7C2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6400A682A8E7290001AF7C2 /* Result.swift */; };
+		F6400A6B2A8F0925001AF7C2 /* ContentView-VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6400A6A2A8F0925001AF7C2 /* ContentView-VM.swift */; };
+		F6400A6D2A8F11B7001AF7C2 /* FileManager-DocumentDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6400A6C2A8F11B7001AF7C2 /* FileManager-DocumentDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		F6400A5D2A8C82E8001AF7C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6400A642A8D6C6A001AF7C2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F6400A662A8DC8AD001AF7C2 /* Edit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit.swift; sourceTree = "<group>"; };
+		F6400A682A8E7290001AF7C2 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		F6400A6A2A8F0925001AF7C2 /* ContentView-VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-VM.swift"; sourceTree = "<group>"; };
+		F6400A6C2A8F11B7001AF7C2 /* FileManager-DocumentDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,12 @@
 				F6400A642A8D6C6A001AF7C2 /* Location.swift */,
 				F6400A562A8C82E7001AF7C2 /* BucketListApp.swift */,
 				F6400A582A8C82E7001AF7C2 /* ContentView.swift */,
+				F6400A662A8DC8AD001AF7C2 /* Edit.swift */,
+				F6400A682A8E7290001AF7C2 /* Result.swift */,
+				F6400A6A2A8F0925001AF7C2 /* ContentView-VM.swift */,
 				F6400A5A2A8C82E8001AF7C2 /* Assets.xcassets */,
 				F6400A5C2A8C82E8001AF7C2 /* Preview Content */,
-				F6400A662A8DC8AD001AF7C2 /* Edit.swift */,
+				F6400A6C2A8F11B7001AF7C2 /* FileManager-DocumentDirectory.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -144,8 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6400A592A8C82E7001AF7C2 /* ContentView.swift in Sources */,
+				F6400A6B2A8F0925001AF7C2 /* ContentView-VM.swift in Sources */,
+				F6400A692A8E7290001AF7C2 /* Result.swift in Sources */,
 				F6400A652A8D6C6B001AF7C2 /* Location.swift in Sources */,
 				F6400A572A8C82E7001AF7C2 /* BucketListApp.swift in Sources */,
+				F6400A6D2A8F11B7001AF7C2 /* FileManager-DocumentDirectory.swift in Sources */,
 				F6400A672A8DC8AD001AF7C2 /* Edit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +290,7 @@
 				DEVELOPMENT_TEAM = WF8GCL77CM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +320,7 @@
 				DEVELOPMENT_TEAM = WF8GCL77CM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
